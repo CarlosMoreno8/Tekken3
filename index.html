@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <!-- Primera pantalla, press start -->
+    
+    <section class="seccionVisible seccionVisible1" id="fase1">
+        <div class="general general1">
+            <button onclick="cambiaPantalla(2)">START</button>
+        </div>
+    </section>
+
+    <!-- Segunda pantalla, roster de personajes -->
+
+    <section class="seccionVisible" id="fase2" style="display:none">
+        <div class="general general2">
+            <button onclick="cambiaPantalla(3)">READY TO FIGHT</button>
+        </div>
+    </section>
+
+    <!-- Tercera pantalla, vs pre-fight -->
+
+    <section class="seccionVisible" id="fase3" style="display:none">
+        <div class="general general3">
+            <button onclick="cambiaPantalla(4)">FIGHT</button>
+        </div>
+    </section>
+
+    <!-- Cuarta pantalla, fight -->
+
+    <section class="seccionVisible" id="fase4" style="display:none">
+        <div class="general general4">
+            <button onclick="cambiaPantalla(5)">YOU WIN</button>
+        </div>
+    </section>
+
+    <!-- Quinta pantalla, you win-->
+
+    <section class="seccionVisible" id="fase5" style="display:none">
+        <div class="general general5">
+            <button onclick="cambiaPantalla(1)">START AGAIN</button>
+        </div>
+    </section>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+.seccionVisible {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.general {
+    width: 100%;
+    height: 100%;
+}
+
+.general1 {
+    background-color: blue;
+}
+
+.general2 {
+    background-color: green;
+
+}
+
+.general3 {
+    background-color: red;
+}
+
+.general4 {
+    background-color: aquamarine;
+}
+
+.general5 {
+    background-color: brown;
+}
