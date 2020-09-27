@@ -12,10 +12,10 @@ class Fighter {
     }
 }
 
-let Eddy = new Fighter('Eddy', 100, 10, 15, 'img/eddy.png', 'img/eddyart.png');
-let Hwoarang = new Fighter('Hwoarang', 100, 12, 12, 'img/hwoarang.png','img/hwogarangart.png');
-let Yoshimitsu = new Fighter('Yoshimitsu', 100, 15, 15, 'img/yoshimitsu.png', 'img/yoshimitsuart.png');
-let Xiaoyu = new Fighter('Xiaoyu', 100, 10, 10, 'img/xiaoyu.png', 'img/xiaoyuart.png');
+let Eddy = new Fighter('Eddy', 100, 10, 15, 'img/eddy.png', 'img/eddyart.png', 'img/eddyfight.png');
+let Hwoarang = new Fighter('Hwoarang', 100, 12, 12, 'img/hwoarang.png','img/hwogarangart.png', 'img/hwoarangfight.png');
+let Yoshimitsu = new Fighter('Yoshimitsu', 100, 15, 15, 'img/yoshimitsu.png', 'img/yoshimitsuart.png', 'img/yoshimitsufight.png');
+let Xiaoyu = new Fighter('Xiaoyu', 100, 10, 10, 'img/xiaoyu.png', 'img/xiaoyuart.png', 'img/xiaoyufight.png');
 
 let fighter1 = document.getElementById('fighter1');
 let fighter2 = document.getElementById('fighter2');
@@ -52,6 +52,11 @@ const cambiaPantalla = (valor) => {
       document.getElementById('player1img').src = player1.img2;    
       document.getElementById('player2img').src = player2.img2;    
     
+    }
+
+    if (valor === 4) {
+      document.getElementById('player3img').src = player1.img3;    
+      document.getElementById('player4img').src = player2.img3;
     }
     //Primero habilitamos la fase a la que queremos ir
 

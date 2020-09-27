@@ -34,7 +34,7 @@
                 <img src="img/xiaoyu.png" class="xiaoyu" id='fighter4'>
             </div>
            
-            <button onclick="cambiaPantalla(3)">READY TO FIGHT</button>
+            <button class="readyToFight" onclick="cambiaPantalla(3)">READY TO FIGHT</button>
 
         </div>
     </section>
@@ -55,14 +55,11 @@
 
     <section class="seccionVisible" id="fase4" style="display:none">
         <div class="general general4">
+            <div class="cajita"></div>
             <img src="img/arena.png" class="fondoArena">
-            <div class="fighter1">
-                <img src="img/eddyfight.png" alt="eddyfight">
-            </div>
-            <div class="fighter2">
-                <img src="img/hwoarangfight.png" alt="hwoarangfight">
-            </div>
+            <img class="player3Selected" id="player3img" src=''>
             <button class="initFight" onclick="cambiaPantalla(5)">ROUND 1</button>
+            <img class="player4Selected" id="player4img" src=''>
         </div>
     </section>
 
