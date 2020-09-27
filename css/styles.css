@@ -21,7 +21,10 @@
 }
 
 .general2 {
-    background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: black;
 
 }
 
@@ -31,6 +34,7 @@
 
 .general4 {
     background-color: aquamarine;
+    position: absolute;
 }
 
 .general5 {
@@ -85,6 +89,36 @@
     align-self: flex-end;
 }
 .buttonFight {
+    font-family: 'Press Start 2P', cursive;
+    color: orange;
+    font-size: 3em;
+    background-color: black;
+    animation: blinker 1s linear infinite;
+    z-index: 1;
+    align-self: unset;
+}
+
+.charactersZoom{
+    height: 50%;
+    width: 50%;
+
+}
+.characters{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 30%;
+    width: 50%;
+    background-color: blanchedalmond;
+}
+
+.fondoArena{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.initFight{
     font-family: 'Press Start 2P', cursive;
     color: orange;
     font-size: 3em;
