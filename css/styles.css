@@ -129,3 +129,28 @@
     z-index: 1;
     align-self: unset;
 }
+
+.fighter1 {
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    width: 80%;
+    height: 80%;
+    background-color: teal;
+}
+.eddyfight {
+    z-index: 2;
+}
+
+.fighter2 {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    background-color: violet;
+}
+
+.hwoarangfight {
+    width: 10%;
+    height: 10%;
+    z-index: 2;
+}

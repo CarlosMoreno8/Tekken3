@@ -1,13 +1,14 @@
 
 
 class Fighter {
-  constructor(name, hp, armor, dmg, img, img2) {
+  constructor(name, hp, armor, dmg, img, img2, img3) {
     this.name = name;
     this.hp = hp;
     this.armor = armor;
     this.dmg = dmg;
     this.img = img;
     this.img2 = img2;
+    this.img3 = img3;
     }
 }
 
@@ -75,7 +76,7 @@ const pulsarpj = (ev) => {
 
   if (player1 === ''){
     player1 = elegirPj (seleccion);
-    
+
   }else {
     player2 = elegirPj (seleccion);
   }
