@@ -113,7 +113,6 @@
     justify-content: center;
     height: 30%;
     width: 50%;
-    background-color: blanchedalmond;
 }
 
 .readyToFight{
@@ -143,7 +142,7 @@
 }
 
 .cajita{
-    width: 10%;
+    width: 25%;
 }
 .player3Selected{
     align-self: flex-end;
@@ -153,4 +152,20 @@
 .player4Selected{
     align-self: flex-end;
     z-index: 2;
+}
+
+.eddy{
+    margin: 1em;
+}
+
+.hwoarang{
+    margin: 1em;
+}
+
+.xiaoyu{
+    margin: 1em;
+}
+
+.yoshimitsu{
+    margin: 1em;
 }

@@ -85,7 +85,7 @@ const pulsarpj = (ev) => {
   }else {
     player2 = elegirPj (seleccion);
   }
-
+  
 console.log(player1, player2);
 }
 
@@ -113,6 +113,6 @@ const elegirPj = (id) => {
     'eliges a casper';
 
       break;
-
   }
 }
+
