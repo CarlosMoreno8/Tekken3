@@ -17,6 +17,8 @@ let Hwoarang = new Fighter('Hwoarang', 100, 12, 12, 'img/hwoarang.png','img/hwog
 let Yoshimitsu = new Fighter('Yoshimitsu', 100, 15, 15, 'img/yoshimitsu.png', 'img/yoshimitsuart.png', 'img/yoshimitsufight.png');
 let Xiaoyu = new Fighter('Xiaoyu', 100, 10, 10, 'img/xiaoyu.png', 'img/xiaoyuart.png', 'img/xiaoyufight.png');
 
+
+
 let fighter1 = document.getElementById('fighter1');
 let fighter2 = document.getElementById('fighter2');
 let fighter3 = document.getElementById('fighter3');
@@ -47,6 +49,7 @@ const cambiaPantalla = (valor) => {
       }
     });
     
+    
       
     if (valor === 3) {
       document.getElementById('player1img').src = player1.img2;    
@@ -72,8 +75,6 @@ const cambiaPantalla = (valor) => {
 //Aqui empiezo con las funciones de los luchadores
 
 
-//button none
-
 
 const pulsarpj = (ev) => {
   let seleccion = ev.target.id;
@@ -84,8 +85,9 @@ const pulsarpj = (ev) => {
 
   }else {
     player2 = elegirPj (seleccion);
+    cambiaPantalla(3);
   }
-  
+
 console.log(player1, player2);
 }
 

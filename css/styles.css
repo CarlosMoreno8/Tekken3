@@ -42,7 +42,12 @@
 }
 
 .general5 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
     background-color: brown;
+    position: absolute;
 }
 
 .fondoStart {
@@ -51,6 +56,7 @@
 }
 
 .buttonStart {
+    cursor: pointer;
     font-family: 'Press Start 2P', cursive;
     color: orange;
     font-size: 3em;
@@ -91,6 +97,7 @@
     align-self: flex-end;
 }
 .buttonFight {
+    cursor: pointer;
     font-family: 'Press Start 2P', cursive;
     color: orange;
     font-size: 3em;
@@ -101,10 +108,20 @@
 }
 
 .charactersZoom{
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Press Start 2P', cursive;
+    color: red;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
     height: 60%;
     width: 70%;
-    background-color: thistle;
+}
 
+.player5Selected{
+    height: 30%;
+    width: 30%;
 }
 .characters{
     display: flex;
@@ -115,15 +132,6 @@
     width: 50%;
 }
 
-.readyToFight{
-    font-family: 'Press Start 2P', cursive;
-    color: orange;
-    font-size: 3em;
-    background-color: black;
-    animation: blinker 1s linear infinite;
-    z-index: 1;
-    align-self: center;
-}    
 
 .fondoArena{
     position: absolute;
@@ -132,6 +140,7 @@
 }
 
 .initFight{
+    cursor: pointer;
     font-family: 'Press Start 2P', cursive;
     color: orange;
     font-size: 3em;
@@ -155,17 +164,43 @@
 }
 
 .eddy{
+    cursor: pointer;
     margin: 1em;
 }
 
 .hwoarang{
+    cursor: pointer;
     margin: 1em;
 }
 
 .xiaoyu{
+    cursor: pointer;
     margin: 1em;
 }
 
 .yoshimitsu{
+    cursor: pointer;
     margin: 1em;
+}
+
+.Restart{
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+    color: orange;
+    font-size: 3em;
+    background-color: black;
+    animation: blinker 1s linear infinite;
+    z-index: 1;
+    align-self: center;
+}
+
+.youWin{
+    font-size: 4em;
+    font-family: 'Press Start 2P', cursive;
+    color: red;
+    z-index: 1;
+}
+
+.cajita2{
+    height: 15%;
 }

@@ -25,16 +25,21 @@
     <section class="seccionVisible" id="fase2" style="display:none">
         <div class="general general2">
 
-            <div class="charactersZoom"></div>
-
+            <div class="charactersZoom">
+                <img src="img/selectchamp.png">
+                </br></br></br>Select two fighters
+                <img src="img/selectchamp.png">
+            </div>
+            
             <div class="characters">
                 <img src="img/eddy.png" class="eddy" id='fighter1'>
                 <img src="img/hwoarang.png" class="hwoarang" id='fighter2'>
                 <img src="img/yoshimitsu.png" class="yoshimitsu" id='fighter3'>
                 <img src="img/xiaoyu.png" class="xiaoyu" id='fighter4'>
             </div>
+
            
-            <button class="readyToFight" onclick="cambiaPantalla(3)">READY TO FIGHT</button>
+            <button class="readyToFight" onclick="cambiaPantalla(3)"></button>
 
         </div>
     </section>
@@ -58,7 +63,7 @@
             <div class="cajita"></div>
             <img src="img/arena.png" class="fondoArena">
             <img class="player3Selected" id="player3img" src=''>
-            <button class="initFight" onclick="cambiaPantalla(5)">ROUND 1</button>
+            <button class="initFight" onclick="cambiaPantalla(5)" >ATTACK</button>
             <img class="player4Selected" id="player4img" src=''>
         </div>
     </section>
@@ -67,7 +72,10 @@
 
     <section class="seccionVisible" id="fase5" style="display:none">
         <div class="general general5">
-            <button onclick="cambiaPantalla(1)">START AGAIN</button>
+            <img src="img/arena.png" class="fondoArena">
+            <div class="cajita2"></div>
+            <div class="youWin">YOU WIN</div>
+            <button class="Restart" onclick="cambiaPantalla(1)">RESTART</button>
         </div>
     </section>
 
